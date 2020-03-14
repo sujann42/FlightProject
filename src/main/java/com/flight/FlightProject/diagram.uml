@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="20.0" y="871.0">com.flight.FlightProject.web.MainController</node>
+    <node x="0.0" y="343.0">com.flight.FlightProject.web.exception.FlightIdMisMatchException</node>
+    <node x="913.0" y="871.0">com.flight.FlightProject.BookProjectApplication</node>
+    <node x="485.4166666666667" y="0.0">com.flight.FlightProject.persistence.Model.Flight</node>
+    <node x="475.00000000000006" y="542.0">com.flight.FlightProject.web.FlightController</node>
+    <node x="707.0" y="343.0">com.flight.FlightProject.web.exception.FlightNotFoundException</node>
+    <node x="409.00000000000006" y="385.0">com.flight.FlightProject.persistence.repo.FlightRepository</node>
+    <node x="303.0" y="871.0">com.flight.FlightProject.web.exception.RestExceptionHandler</node>
+    <node x="0.0" y="1060.0">com.flight.FlightProject.Config.SecurityConfig</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.flight.FlightProject.web.MainController" target="com.flight.FlightProject.web.MainController">
+      <point x="0.0" y="59.0" />
+      <point x="139.0" y="1009.0" />
+      <point x="0.0" y="1009.0" />
+      <point x="0.0" y="930.0" />
+      <point x="-119.0" y="-0.0" />
+    </edge>
+    <edge source="com.flight.FlightProject.web.FlightController" target="com.flight.FlightProject.web.FlightController">
+      <point x="0.0" y="129.0" />
+      <point x="622.0" y="820.0" />
+      <point x="455.00000000000006" y="820.0" />
+      <point x="455.00000000000006" y="671.0" />
+      <point x="-147.0" y="-0.0" />
+    </edge>
+    <edge source="com.flight.FlightProject.web.FlightController" target="com.flight.FlightProject.web.exception.FlightNotFoundException">
+      <point x="110.25" y="-129.0" />
+      <point x="732.25" y="517.0" />
+      <point x="896.5" y="517.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="com.flight.FlightProject.persistence.Model.Flight" target="com.flight.FlightProject.persistence.Model.Flight">
+      <point x="-74.66666666666667" y="141.5" />
+      <point x="522.75" y="303.0" />
+      <point x="465.4166666666667" y="303.0" />
+      <point x="465.4166666666667" y="141.5" />
+      <point x="-112.0" y="-0.0" />
+    </edge>
+    <edge source="com.flight.FlightProject.persistence.repo.FlightRepository" target="com.flight.FlightProject.persistence.Model.Flight">
+      <point x="0.0" y="-32.5" />
+      <point x="547.5" y="323.0" />
+      <point x="597.4166666666667" y="323.0" />
+      <point x="0.0" y="141.5" />
+    </edge>
+    <edge source="com.flight.FlightProject.BookProjectApplication" target="com.flight.FlightProject.BookProjectApplication">
+      <point x="0.0" y="32.5" />
+      <point x="1049.0" y="956.0" />
+      <point x="893.0" y="956.0" />
+      <point x="893.0" y="903.5" />
+      <point x="-136.0" y="-0.0" />
+    </edge>
+    <edge source="com.flight.FlightProject.web.FlightController" target="com.flight.FlightProject.web.exception.FlightIdMisMatchException">
+      <point x="-110.25" y="-129.0" />
+      <point x="511.75000000000006" y="517.0" />
+      <point x="194.5" y="517.0" />
+      <point x="0.0" y="74.5" />
+    </edge>
+    <edge source="com.flight.FlightProject.web.FlightController" target="com.flight.FlightProject.persistence.repo.FlightRepository">
+      <point x="-36.75" y="-129.0" />
+      <point x="585.25" y="517.0" />
+      <point x="547.5" y="517.0" />
+      <point x="0.0" y="32.5" />
+    </edge>
+    <edge source="com.flight.FlightProject.web.FlightController" target="com.flight.FlightProject.persistence.Model.Flight">
+      <point x="36.75" y="-129.0" />
+      <point x="658.75" y="517.0" />
+      <point x="696.5" y="517.0" />
+      <point x="696.5" y="323.0" />
+      <point x="672.0833333333335" y="323.0" />
+      <point x="74.66666666666674" y="141.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5000000000000001" x="436.0" y="424.85714285714283" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
